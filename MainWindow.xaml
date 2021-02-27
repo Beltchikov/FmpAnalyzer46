@@ -263,7 +263,7 @@
                                            Grid.Column="3" Grid.Row="3"></local:FmpDataGrid>
                 </Grid>
             </TabItem>
-           <!-- <TabItem Header="Symbol by Company">
+           <TabItem Header="Symbol by Company">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="10"></RowDefinition>
@@ -299,7 +299,7 @@
                             Text="{Binding SymbolsFound}"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="Earnings">
+            <!-- <TabItem Header="Earnings">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="10"></RowDefinition>
