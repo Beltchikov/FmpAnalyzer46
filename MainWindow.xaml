@@ -299,7 +299,7 @@
                             Text="{Binding SymbolsFound}"/>
                 </Grid>
             </TabItem>
-            <!-- <TabItem Header="Earnings">
+            <TabItem Header="Earnings">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="10"></RowDefinition>
@@ -354,7 +354,7 @@
                                            Grid.Column="2" Grid.Row="3"></local:FmpDataGrid>
                 </Grid>
             </TabItem>
-            <TabItem Header="..."></TabItem>-->
+           <TabItem Header="..."></TabItem>-->
         </TabControl>
     </Grid>
 </Window>
