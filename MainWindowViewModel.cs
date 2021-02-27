@@ -818,9 +818,9 @@ namespace FmpAnalyzer46
         private void GenerateCountMessage()
         {
             LockControls();
-            var dates = ConfigurationManager.AppSettings["Dates"].Split(',').Select(d => d.Trim()).ToList();
-            int yearFrom = YearFrom;
-            int yearTo = YearTo;
+            var dates = ConfigurationManager.AppSettings["Dates"].Split(',').Select(d => d.Trim()).ToList(); 
+            int yearFrom = Convert.ToInt32(ConfigurationManager.AppSettings["DatabaseDataYearFrom"]);
+            int yearTo = Convert.ToInt32(ConfigurationManager.AppSettings["DatabaseDataYearTo"]);
 
             int count = 0;
             BackgroundWork((s, e) =>
