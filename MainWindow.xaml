@@ -235,7 +235,7 @@
                     </Grid>
                 </Grid>
             </TabItem>
-            <!--<TabItem Header="Search by Symbol">
+            <TabItem Header="Search by Symbol">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="10"></RowDefinition>
@@ -263,7 +263,7 @@
                                            Grid.Column="3" Grid.Row="3"></local:FmpDataGrid>
                 </Grid>
             </TabItem>
-            <TabItem Header="Symbol by Company">
+           <!-- <TabItem Header="Symbol by Company">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="10"></RowDefinition>
