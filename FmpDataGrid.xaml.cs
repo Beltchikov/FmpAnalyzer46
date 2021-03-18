@@ -51,7 +51,7 @@ namespace FmpAnalyzer46
             int columnIndex = gridCompounder.CurrentCell.Column.DisplayIndex;
             var column = gridCompounder.Columns[columnIndex];
 
-            var companyName = ((ResultSet)e.Item).Name;
+            var companyName = ((ResultSetReinvestment)e.Item).Name;
             var cellContent = new DataGridClipboardCellContent(e.Item, column, companyName);
 
             e.ClipboardRowContent.Clear();
